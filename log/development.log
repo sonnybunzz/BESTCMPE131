@@ -1,0 +1,527 @@
+Started GET "/" for 146.74.94.66 at 2017-04-08 20:17:46 +0000
+Cannot render console from 146.74.94.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@global/gems/railties-5.0.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/railties-5.0.2/lib/rails/templates/rails/welcome/index.html.erb (4.0ms)
+Completed 200 OK in 21ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (14.8ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (10.9ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateArticles (20170408202537)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCREATE TABLE "articles" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "text" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170408202537"]]
+  [1m[35m (10.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", :environment], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", 2017-04-08 20:25:48 UTC], ["updated_at", 2017-04-08 20:25:48 UTC]]
+  [1m[35m (11.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/" for 146.74.94.66 at 2017-04-08 20:26:48 +0000
+Cannot render console from 146.74.94.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 1038ms (Views: 1027.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 146.74.94.66 at 2017-04-08 20:27:01 +0000
+Cannot render console from 146.74.94.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (32.4ms)
+Completed 200 OK in 111ms (Views: 109.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 146.74.94.66 at 2017-04-08 20:27:04 +0000
+Cannot render console from 146.74.94.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rPbZgIASB2IoHvjZhF5M+QlNb3Ye6jYXRE9lX0tGpplK45MPRbg2LbKROJNoadjuimzW9fVrOf8GY5xQIRZSpA==", "article"=>{"title"=>"sd", "text"=>"d"}, "commit"=>"Save Article"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "articles" ("title", "text", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "sd"], ["text", "d"], ["created_at", 2017-04-08 20:27:04 UTC], ["updated_at", 2017-04-08 20:27:04 UTC]]
+  [1m[35m (115.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://cmpe131-sonnybunzz.c9users.io/articles/1
+Completed 302 Found in 147ms (ActiveRecord: 120.8ms)
+
+
+Started GET "/articles/1" for 146.74.94.66 at 2017-04-08 20:27:04 +0000
+Cannot render console from 146.74.94.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 53ms (Views: 44.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 146.74.94.66 at 2017-04-08 20:29:37 +0000
+Cannot render console from 146.74.94.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 383ms (Views: 370.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 146.74.94.66 at 2017-04-08 20:35:56 +0000
+Cannot render console from 146.74.94.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 323ms (Views: 313.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles" for 146.74.94.66 at 2017-04-08 20:35:58 +0000
+Cannot render console from 146.74.94.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 33ms (Views: 27.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/articles/new" for 146.74.94.66 at 2017-04-08 20:36:03 +0000
+Cannot render console from 146.74.94.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (22.5ms)
+Completed 200 OK in 47ms (Views: 45.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 146.74.94.66 at 2017-04-08 20:36:06 +0000
+Cannot render console from 146.74.94.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yhL2kNeWANXFUT7U/wKNDu096V529qRJYox7626aJDmL5+60Kq/09x5uj7+Z7CgpRlD5l0LShiBOZUQo2UyZkw==", "article"=>{"title"=>"dsa", "text"=>"fsa"}, "commit"=>"Save Article"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 26ms (Views: 23.0ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/articles" for 146.74.94.66 at 2017-04-08 20:36:09 +0000
+Cannot render console from 146.74.94.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yzFtIhej/LxiWL94rmK8MaGl7rwBcmricoZMXMJaRtotJCet0gnN8/jXfzJCVSgmIoRXP+rzZQowqrVTqAqy5w==", "article"=>{"title"=>"dsadsa", "text"=>"fsa"}, "commit"=>"Save Article"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.4ms)[0m  [1m[32mINSERT INTO "articles" ("title", "text", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "dsadsa"], ["text", "fsa"], ["created_at", 2017-04-08 20:36:09 UTC], ["updated_at", 2017-04-08 20:36:09 UTC]]
+  [1m[35m (10.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://cmpe131-sonnybunzz.c9users.io/articles/2
+Completed 302 Found in 18ms (ActiveRecord: 12.1ms)
+
+
+Started GET "/articles/2" for 146.74.94.66 at 2017-04-08 20:36:09 +0000
+Cannot render console from 146.74.94.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (6.8ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     6:     <th colspan="2"></th>
+     7:   </tr>
+     8:  
+     9:   <% @articles.each do |article| %>
+    10:     <tr>
+    11:       <td><%= article.title %></td>
+    12:       <td><%= article.text %></td>
+  
+app/views/articles/show.html.erb:9:in `_app_views_articles_show_html_erb__1544395063129685774_70228855899580'
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.6ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (48.4ms)
+Started GET "/articles/2" for 146.74.94.66 at 2017-04-08 20:37:09 +0000
+Cannot render console from 146.74.94.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 427ms (Views: 391.1ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/articles" for 146.74.94.66 at 2017-04-08 20:37:11 +0000
+Cannot render console from 146.74.94.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 38ms (Views: 35.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/articles/1/edit" for 146.74.94.66 at 2017-04-08 20:37:13 +0000
+Cannot render console from 146.74.94.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/edit.html.erb within layouts/application (30.0ms)
+Completed 200 OK in 63ms (Views: 59.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles" for 146.74.94.66 at 2017-04-08 20:37:14 +0000
+Cannot render console from 146.74.94.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 30ms (Views: 28.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles" for 146.74.94.66 at 2017-04-08 20:41:27 +0000
+Cannot render console from 146.74.94.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 375ms (Views: 361.8ms | ActiveRecord: 1.0ms)
+
+
+Started DELETE "/articles/1" for 146.74.94.66 at 2017-04-08 20:41:30 +0000
+Cannot render console from 146.74.94.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"VTm+IIUndVomZs3+3uJG/wUH1/cYznrfNI09hyCasRCzLPSvQI1EFbzpDbQy1dLohiZudPNPdTd2ocSISspFLQ==", "id"=>"1"}
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.3ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 1]]
+  [1m[35m (11.7ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://cmpe131-sonnybunzz.c9users.io/articles
+Completed 302 Found in 21ms (ActiveRecord: 13.5ms)
+
+
+Started GET "/articles" for 146.74.94.66 at 2017-04-08 20:41:30 +0000
+Cannot render console from 146.74.94.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 25ms (Views: 23.4ms | ActiveRecord: 0.3ms)
+
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateComments (20170408204204)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.7ms)[0m  [1m[35mCREATE TABLE "comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "commenter" varchar, "body" text, "article_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mselect sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE  INDEX "index_comments_on_article_id" ON "comments" ("article_id")[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170408204204"]]
+  [1m[35m (11.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", :environment], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_comments_on_article_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_comments_on_article_id' AND type='index'
+[0m
+Started GET "/articles" for 146.74.94.66 at 2017-04-08 20:46:17 +0000
+Cannot render console from 146.74.94.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (12.9ms)
+Completed 200 OK in 509ms (Views: 483.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles/2" for 146.74.94.66 at 2017-04-08 20:46:20 +0000
+Cannot render console from 146.74.94.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (18.2ms)
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 0.4ms)
+
+
+  
+LoadError (Unable to autoload constant Comment, expected /home/ubuntu/workspace/app/models/comment.rb to define it):
+  
+app/views/articles/show.html.erb:12:in `_app_views_articles_show_html_erb__324771816126501257_70292894533880'
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.3ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (44.0ms)
+Started GET "/articles/2" for 146.74.94.66 at 2017-04-08 20:47:37 +0000
+Cannot render console from 146.74.94.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."article_id" = ?[0m  [["article_id", 2]]
+  Rendered articles/show.html.erb within layouts/application (64.2ms)
+Completed 200 OK in 439ms (Views: 408.5ms | ActiveRecord: 2.1ms)
+
+
+Started POST "/articles/2/comments" for 146.74.94.66 at 2017-04-08 20:47:42 +0000
+Cannot render console from 146.74.94.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O1NkIa2AtWg/+xmv2L6yyQD4R9dBPz5mrBySNPJikBDdRi6uaCqEJ6V02eU0iSbeg9n+VKq+MY7uMGs7mDJkLQ==", "comment"=>{"commenter"=>"sONNY", "body"=>"fdas"}, "commit"=>"Create Comment", "article_id"=>"2"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.3ms)[0m  [1m[32mINSERT INTO "comments" ("commenter", "body", "article_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["commenter", "sONNY"], ["body", "fdas"], ["article_id", 2], ["created_at", 2017-04-08 20:47:42 UTC], ["updated_at", 2017-04-08 20:47:42 UTC]]
+  [1m[35m (11.4ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://cmpe131-sonnybunzz.c9users.io/articles/2
+Completed 302 Found in 183ms (ActiveRecord: 13.3ms)
+
+
+Started GET "/articles/2" for 146.74.94.66 at 2017-04-08 20:47:42 +0000
+Cannot render console from 146.74.94.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."article_id" = ?[0m  [["article_id", 2]]
+  Rendered articles/show.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 33ms (Views: 29.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/articles/2/edit" for 146.74.94.66 at 2017-04-08 20:47:44 +0000
+Cannot render console from 146.74.94.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (2.6ms)
+  Rendered articles/edit.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 31ms (Views: 28.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles" for 146.74.94.66 at 2017-04-08 20:47:45 +0000
+Cannot render console from 146.74.94.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 46ms (Views: 44.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles/2" for 146.74.94.66 at 2017-04-08 20:47:47 +0000
+Cannot render console from 146.74.94.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."article_id" = ?[0m  [["article_id", 2]]
+  Rendered articles/show.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 30ms (Views: 28.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles" for 146.74.94.66 at 2017-04-08 20:47:50 +0000
+Cannot render console from 146.74.94.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 27ms (Views: 25.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles" for 146.74.94.66 at 2017-04-08 20:52:20 +0000
+Cannot render console from 146.74.94.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (12.9ms)
+Completed 200 OK in 386ms (Views: 367.0ms | ActiveRecord: 1.0ms)
+
+
+Started DELETE "/articles/2" for 146.74.94.66 at 2017-04-08 20:52:24 +0000
+Cannot render console from 146.74.94.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Fq+pxJlcaC+nJwhg46XymRR7zLrF1XcIqVqP+BIC/fHwuuNLXPZZYD2oyCoPkmaOl1p1OS5UeODrdnb3eFIJzA==", "id"=>"2"}
+Filter chain halted as #<Proc:0x0000000465f230@/usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_controller/metal/http_authentication.rb:70> rendered or redirected
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started DELETE "/articles/2" for 146.74.94.66 at 2017-04-08 20:52:27 +0000
+Cannot render console from 146.74.94.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Fq+pxJlcaC+nJwhg46XymRR7zLrF1XcIqVqP+BIC/fHwuuNLXPZZYD2oyCoPkmaOl1p1OS5UeODrdnb3eFIJzA==", "id"=>"2"}
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."article_id" = ?[0m  [["article_id", 2]]
+  [1m[35mSQL (1.3ms)[0m  [1m[31mDELETE FROM "comments" WHERE "comments"."id" = ?[0m  [["id", 1]]
+  [1m[35mSQL (0.1ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 2]]
+  [1m[35m (98.1ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://cmpe131-sonnybunzz.c9users.io/articles
+Completed 302 Found in 137ms (ActiveRecord: 100.9ms)
+
+
+Started GET "/articles" for 146.74.94.66 at 2017-04-08 20:52:27 +0000
+Cannot render console from 146.74.94.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 32ms (Views: 29.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles/new" for 146.74.94.66 at 2017-04-08 20:52:31 +0000
+Cannot render console from 146.74.94.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (18.6ms)
+  Rendered articles/new.html.erb within layouts/application (20.0ms)
+Completed 200 OK in 64ms (Views: 61.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 146.74.94.66 at 2017-04-08 20:52:33 +0000
+Cannot render console from 146.74.94.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8GuFCfwS/kF76RrAuRKgi0vm17dKbSnUwzF1w5e7YPaxnp0tASsKY6DWq6vf/AWs4IvHfn5JC73v2EoAIG3dXA==", "article"=>{"title"=>"sdas", "text"=>"fdaf"}, "commit"=>"Create Article"}
+Filter chain halted as #<Proc:0x0000000465f230@/usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_controller/metal/http_authentication.rb:70> rendered or redirected
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 146.74.94.66 at 2017-04-08 20:52:33 +0000
+Cannot render console from 146.74.94.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8GuFCfwS/kF76RrAuRKgi0vm17dKbSnUwzF1w5e7YPaxnp0tASsKY6DWq6vf/AWs4IvHfn5JC73v2EoAIG3dXA==", "article"=>{"title"=>"sdas", "text"=>"fdaf"}, "commit"=>"Create Article"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (2.9ms)
+  Rendered articles/new.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 31ms (Views: 27.6ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/articles" for 146.74.94.66 at 2017-04-08 20:52:36 +0000
+Cannot render console from 146.74.94.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"W/XEc2qCiXbjVcehCxoZcUK71UDZOfqFKsgM5mXb8ue94I78ryi4OXnaB+vnLY1mwZpswzK49W1o5PXpD4sG2g==", "article"=>{"title"=>"sdasd", "text"=>"fdaf"}, "commit"=>"Create Article"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "articles" ("title", "text", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "sdasd"], ["text", "fdaf"], ["created_at", 2017-04-08 20:52:36 UTC], ["updated_at", 2017-04-08 20:52:36 UTC]]
+  [1m[35m (11.4ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://cmpe131-sonnybunzz.c9users.io/articles/3
+Completed 302 Found in 17ms (ActiveRecord: 12.3ms)
+
+
+Started GET "/articles/3" for 146.74.94.66 at 2017-04-08 20:52:36 +0000
+Cannot render console from 146.74.94.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."article_id" = ?[0m  [["article_id", 3]]
+  Rendered collection of templates [0 times] (0.0ms)
+  Rendered comments/_form.html.erb (5.3ms)
+  Rendered articles/show.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 36ms (Views: 33.5ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/articles/3/comments" for 146.74.94.66 at 2017-04-08 20:52:39 +0000
+Cannot render console from 146.74.94.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+SyntaxError (/home/ubuntu/workspace/app/controllers/comments_controller.rb:2: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+...1", password: "cmpe131", only :destroy
+...                               ^):
+  
+app/controllers/comments_controller.rb:2: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.3ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (54.0ms)
+Started GET "/articles" for 146.74.94.66 at 2017-04-08 20:53:40 +0000
+Cannot render console from 146.74.94.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (18.5ms)
+Completed 200 OK in 470ms (Views: 446.1ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/articles/3" for 146.74.94.66 at 2017-04-08 20:53:43 +0000
+Cannot render console from 146.74.94.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."article_id" = ?[0m  [["article_id", 3]]
+  Rendered collection of templates [0 times] (0.0ms)
+  Rendered comments/_form.html.erb (45.7ms)
+  Rendered articles/show.html.erb within layouts/application (83.7ms)
+Completed 200 OK in 123ms (Views: 112.0ms | ActiveRecord: 2.4ms)
+
+
+Started POST "/articles/3/comments" for 146.74.94.66 at 2017-04-08 20:53:45 +0000
+Cannot render console from 146.74.94.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+KsY8vnvdDQ6m/0qxsEXbf2DwhwKZqPsfAlsBWoC6OI9m+033rOOjuQsng7CF9133Egn1C4HQji8Wh7C4IwutQ==", "comment"=>{"commenter"=>"dsfadf", "body"=>"gaf"}, "commit"=>"Create Comment", "article_id"=>"3"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.5ms)[0m  [1m[32mINSERT INTO "comments" ("commenter", "body", "article_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["commenter", "dsfadf"], ["body", "gaf"], ["article_id", 3], ["created_at", 2017-04-08 20:53:45 UTC], ["updated_at", 2017-04-08 20:53:45 UTC]]
+  [1m[35m (12.2ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://cmpe131-sonnybunzz.c9users.io/articles/3
+Completed 302 Found in 188ms (ActiveRecord: 13.9ms)
+
+
+Started GET "/articles/3" for 146.74.94.66 at 2017-04-08 20:53:45 +0000
+Cannot render console from 146.74.94.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."article_id" = ?[0m  [["article_id", 3]]
+  Rendered collection of comments/_comment.html.erb [1 times] (1.0ms)
+  Rendered comments/_form.html.erb (2.7ms)
+  Rendered articles/show.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 59ms (Views: 56.5ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/articles/3/comments/2" for 146.74.94.66 at 2017-04-08 20:53:48 +0000
+Cannot render console from 146.74.94.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CommentsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"OMk2X1fYGT+6Wf31TtQMJm6Mg0XHCTLfPop3qerGv8re3HzQknIocCDWPb+i45gx7a06xiyIPTd8po6mgJZL9w==", "article_id"=>"3", "id"=>"2"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT  "comments".* FROM "comments" WHERE "comments"."article_id" = ? AND "comments"."id" = ? LIMIT ?[0m  [["article_id", 3], ["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[31mDELETE FROM "comments" WHERE "comments"."id" = ?[0m  [["id", 2]]
+  [1m[35m (10.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://cmpe131-sonnybunzz.c9users.io/articles/3
+Completed 302 Found in 99ms (ActiveRecord: 11.9ms)
+
+
+Started GET "/articles/3" for 146.74.94.66 at 2017-04-08 20:53:49 +0000
+Cannot render console from 146.74.94.66! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."article_id" = ?[0m  [["article_id", 3]]
+  Rendered collection of templates [0 times] (0.0ms)
+  Rendered comments/_form.html.erb (3.1ms)
+  Rendered articles/show.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 37ms (Views: 33.4ms | ActiveRecord: 0.7ms)
+
+
