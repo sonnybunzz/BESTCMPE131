@@ -1,14 +1,73 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Cmpe131</title>
+    <title>BEST Dining</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<nav class="navbar navbar-default navbar-static-top" role="navigation">
+				<div class="navbar-header">
+					 
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						 <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+					</button> <a class="navbar-brand" href="/">BEST</a>
+				</div>
+				
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li>
+							<a href="reservations">Reservations</a>
+						</li>
+						<li>
+							<a href="#">Menu</a>
+						</li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+					  <% if user_signed_in? %>
+					  	<li class="dropdown">
+							 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Logged in as <%= current_user.email %><strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li>
+									<%= link_to 'Edit profile', edit_user_registration_path %>
+								</li>
+								<li class="divider">
+								</li>
+								<li>
+								  <%= link_to "Logout", destroy_user_session_path, method: :delete %>
+								</li>
+							</ul>
+							<% else %>
+							<li>
+							  <%= link_to "Sign up", new_user_registration_path %>
+							</li>
+							<li>
+							  <%= link_to "Login", new_user_session_path %>
+							</li>
+						</li>
+						<% end %>
+					</ul>
+				</div>
+				
+			</nav>
+		</div>
+	</div>
+</div>
   </head>
 
   <body>
+<% if notice %>
+  <p class="alert alert-success"><%= notice %></p>
+<% end %>
+<% if alert %>
+  <p class="alert alert-danger"><%= alert %></p>
+<% end %>
     <%= yield %>
+    
+
   </body>
 </html>
+
