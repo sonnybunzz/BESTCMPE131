@@ -5285,3 +5285,1659 @@ Processing by WelcomeController#index as HTML
 Completed 200 OK in 91ms (Views: 88.8ms | ActiveRecord: 0.3ms)
 
 
+Started GET "/" for 130.65.254.19 at 2017-04-13 17:23:48 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (4.5ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 852ms (Views: 830.2ms | ActiveRecord: 1.4ms)
+
+
+Started DELETE "/users/sign_out" for 130.65.254.19 at 2017-04-13 17:23:52 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"HsOhSU3V1MdUqB60UpNPoFv/CYOp5aF/Im11UtXFEsaiufGGBnHt7YB2MMRNdjL3KrilhHJ33mFmcdE6Z/PqXA=="}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://cmpe131-sonnybunzz.c9users.io/
+Completed 302 Found in 178ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 130.65.254.19 at 2017-04-13 17:23:53 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 133ms (Views: 131.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 130.65.254.19 at 2017-04-13 17:23:55 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/devise-4.2.1/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/devise-4.2.1/app/views/devise/shared/_links.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/devise-4.2.1/app/views/devise/sessions/new.html.erb within layouts/application (32.9ms)
+Completed 200 OK in 136ms (Views: 133.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 130.65.254.19 at 2017-04-13 17:25:33 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 912ms (Views: 898.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 130.65.254.19 at 2017-04-13 17:25:36 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/devise-4.2.1/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/devise-4.2.1/app/views/devise/shared/_links.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/devise-4.2.1/app/views/devise/sessions/new.html.erb within layouts/application (49.1ms)
+Completed 200 OK in 210ms (Views: 172.9ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/" for 130.65.254.19 at 2017-04-13 17:35:20 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 976ms (Views: 961.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 130.65.254.19 at 2017-04-13 17:35:23 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/devise-4.2.1/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/devise-4.2.1/app/views/devise/shared/_links.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/devise-4.2.1/app/views/devise/sessions/new.html.erb within layouts/application (64.4ms)
+Completed 200 OK in 184ms (Views: 163.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users/sign_in" for 130.65.254.19 at 2017-04-13 17:35:50 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Devise::SessionsController#new as HTML
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/devise-4.2.1/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/devise-4.2.1/app/views/devise/shared/_links.html.erb (4.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/devise-4.2.1/app/views/devise/sessions/new.html.erb within layouts/application (78.3ms)
+Completed 200 OK in 989ms (Views: 903.1ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/users/reservations" for 130.65.254.19 at 2017-04-13 18:18:57 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  
+ActionController::RoutingError (No route matches [GET] "/users/reservations"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.0) lib/web_console/middleware.rb:20:in `block in call'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.8ms)
+  Rendered collection of /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [41 times] (32.6ms)
+  Rendered collection of /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [10 times] (8.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (25.5ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (14.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (204.5ms)
+Started GET "/users/sign_in" for 130.65.254.19 at 2017-04-13 18:19:02 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (47.9ms)
+Completed 500 Internal Server Error in 91ms (ActiveRecord: 1.2ms)
+
+
+  
+ActionView::Template::Error (Missing partial users/shared/_links with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder, :haml]}. Searched in:
+  * "/home/ubuntu/workspace/app/views"
+  * "/usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views"
+  * "/usr/local/rvm/gems/ruby-2.3.0/gems/kaminari-core-1.0.1/app/views"
+  * "/usr/local/rvm/gems/ruby-2.3.0/gems/devise-4.2.1/app/views"
+):
+    26:   </div>
+    27: <% end %>
+    28: 
+    29: <%= render "users/shared/links" %>
+    30: 
+    31: </div>
+    32: </div>
+  
+app/views/devise/sessions/new.html.erb:29:in `_app_views_devise_sessions_new_html_erb__4286118871484081015_28252980'
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.6ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.4ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (65.4ms)
+Started GET "/users/sign_in" for 130.65.254.19 at 2017-04-13 18:19:06 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (7.0ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial users/shared/_links with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder, :haml]}. Searched in:
+  * "/home/ubuntu/workspace/app/views"
+  * "/usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views"
+  * "/usr/local/rvm/gems/ruby-2.3.0/gems/kaminari-core-1.0.1/app/views"
+  * "/usr/local/rvm/gems/ruby-2.3.0/gems/devise-4.2.1/app/views"
+):
+    26:   </div>
+    27: <% end %>
+    28: 
+    29: <%= render "users/shared/links" %>
+    30: 
+    31: </div>
+    32: </div>
+  
+app/views/devise/sessions/new.html.erb:29:in `_app_views_devise_sessions_new_html_erb__4286118871484081015_24419020'
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (16.5ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.4ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (78.7ms)
+Started GET "/" for 130.65.254.19 at 2017-04-13 18:19:46 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 917ms (Views: 897.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 130.65.254.19 at 2017-04-13 18:19:52 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/devise-4.2.1/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/devise-4.2.1/app/views/devise/shared/_links.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/devise-4.2.1/app/views/devise/sessions/new.html.erb within layouts/application (60.2ms)
+Completed 200 OK in 238ms (Views: 207.9ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/" for 130.65.254.19 at 2017-04-13 18:20:00 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 137ms (Views: 134.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 130.65.254.19 at 2017-04-13 18:21:23 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 712ms (Views: 699.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 130.65.254.19 at 2017-04-13 18:21:26 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (1.7ms)
+  Rendered users/sessions/new.html.erb within layouts/application (59.6ms)
+Completed 200 OK in 216ms (Views: 187.8ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/users/sign_up" for 130.65.254.19 at 2017-04-13 18:21:30 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering users/registrations/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (1.1ms)
+  Rendered users/registrations/new.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 103ms (Views: 101.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 130.65.254.19 at 2017-04-13 18:21:33 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (1.2ms)
+  Rendered users/sessions/new.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 110ms (Views: 108.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 130.65.254.19 at 2017-04-13 18:21:38 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 108ms (Views: 106.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/reservations" for 130.65.254.19 at 2017-04-13 22:51:04 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (1.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 26ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 130.65.254.19 at 2017-04-13 22:51:05 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (3.3ms)
+  Rendered users/sessions/new.html.erb within layouts/application (51.6ms)
+Completed 200 OK in 1262ms (Views: 1212.7ms | ActiveRecord: 4.8ms)
+
+
+Started POST "/users/sign_in" for 130.65.254.19 at 2017-04-13 22:51:09 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GzFaRaiwiZ3i3VqurQOcPLsd5p0EzoV2TW3i5k60K8LLyQYGOTjz0rI3VE3xsjw76HTWlh4po4LnQEDUnFUURg==", "user"=>{"email"=>"sonnybunzz@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "sonnybunzz@gmail.com"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[33mUPDATE "users" SET "current_sign_in_at" = ?, "last_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["current_sign_in_at", 2017-04-13 22:51:09 UTC], ["last_sign_in_at", 2017-04-13 17:18:05 UTC], ["sign_in_count", 12], ["updated_at", 2017-04-13 22:51:09 UTC], ["id", 1]]
+  [1m[35m (14.3ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://cmpe131-sonnybunzz.c9users.io/reservations
+Completed 302 Found in 226ms (ActiveRecord: 15.4ms)
+
+
+Started GET "/reservations" for 130.65.254.19 at 2017-04-13 22:51:09 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (13.3ms)
+Completed 200 OK in 162ms (Views: 142.4ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/admin" for 130.65.254.19 at 2017-04-13 22:51:17 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "articles" WHERE ('t'='t')[0m
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY "articles"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE ('t'='t')[0m
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT  "comments".* FROM "comments" ORDER BY "comments"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE ('t'='t')[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (18.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/layouts/rails_admin/_secondary_navigation.html.haml (5.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/layouts/rails_admin/_navigation.html.haml (9.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (4.8ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/layouts/rails_admin/pjax.html.haml
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/layouts/rails_admin/pjax.html.haml (4.2ms)
+Completed 200 OK in 1151ms (Views: 265.7ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/admin" for 130.65.254.19 at 2017-04-13 22:51:19 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "articles" WHERE ('t'='t')[0m
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY "articles"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE ('t'='t')[0m
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT  "comments".* FROM "comments" ORDER BY "comments"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE ('t'='t')[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (19.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/layouts/rails_admin/_secondary_navigation.html.haml (5.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/layouts/rails_admin/_navigation.html.haml (10.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (5.6ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/layouts/rails_admin/pjax.html.haml
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/layouts/rails_admin/pjax.html.haml (4.7ms)
+Completed 200 OK in 244ms (Views: 233.0ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/admin/article?_pjax=%5Bdata-pjax-container%5D" for 130.65.254.19 at 2017-04-13 22:51:21 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"article"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE ('t'='t') ORDER BY articles.id desc LIMIT ? OFFSET ?[0m  [["LIMIT", 20], ["OFFSET", 0]]
+  [1m[36mComment Load (0.5ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."article_id" = ?[0m  [["article_id", 3]]
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (170.3ms)
+Completed 200 OK in 204ms (Views: 188.6ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/admin/article/3/edit?_pjax=%5Bdata-pjax-container%5D" for 130.65.254.19 at 2017-04-13 22:51:25 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#edit as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"article", "id"=>"3"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? ORDER BY "articles"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/edit.html.haml within layouts/rails_admin/pjax
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/_form_field.html.haml (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/_form_text.html.haml (3.4ms)
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."article_id" = ?[0m  [["article_id", 3]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments"[0m
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE ('t'='t') ORDER BY comments.id desc[0m
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/_form_filtering_multiselect.html.haml (46.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/_submit_buttons.html.haml (9.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/edit.html.haml within layouts/rails_admin/pjax (78.8ms)
+Completed 200 OK in 119ms (Views: 107.4ms | ActiveRecord: 1.4ms)
+
+
+Started PUT "/admin/article/3/edit" for 130.65.254.19 at 2017-04-13 22:51:37 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#edit as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jp2CC2OZHR/o2O4LRI2GWSct2oZbQFRaHEl5H9edwdl443d+v/6JKQbGNEEI3V22AgCTtXQCO9IRMFpBSuf/Dg==", "article"=>{"title"=>"sdasd", "text"=>"fdaf", "comment_ids"=>["", ""]}, "return_to"=>"https://cmpe131-sonnybunzz.c9users.io/admin/article", "_continue"=>"", "model_name"=>"article", "id"=>"3"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? ORDER BY "articles"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Redirected to https://cmpe131-sonnybunzz.c9users.io/admin/article
+Filter chain halted as :check_for_cancel rendered or redirected
+Completed 302 Found in 11ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/admin/article" for 130.65.254.19 at 2017-04-13 22:51:37 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"article"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE ('t'='t') ORDER BY articles.id desc LIMIT ? OFFSET ?[0m  [["LIMIT", 20], ["OFFSET", 0]]
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."article_id" = ?[0m  [["article_id", 3]]
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (57.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/layouts/rails_admin/_secondary_navigation.html.haml (8.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/layouts/rails_admin/_navigation.html.haml (15.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (7.3ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/layouts/rails_admin/pjax.html.haml
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/layouts/rails_admin/pjax.html.haml (12.8ms)
+Completed 200 OK in 400ms (Views: 323.2ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/admin/article/3/show_in_app" for 130.65.254.19 at 2017-04-13 22:51:42 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#show_in_app as HTML
+  Parameters: {"model_name"=>"article", "id"=>"3"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? ORDER BY "articles"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Redirected to https://cmpe131-sonnybunzz.c9users.io/reservations/3
+Completed 302 Found in 11ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations/3" for 130.65.254.19 at 2017-04-13 22:51:42 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."article_id" = ?[0m  [["article_id", 3]]
+  Rendered collection of templates [0 times] (0.0ms)
+  Rendered comments/_form.html.erb (27.3ms)
+  Rendered articles/show.html.erb within layouts/application (32.2ms)
+Completed 200 OK in 140ms (Views: 133.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 130.65.254.19 at 2017-04-13 22:51:47 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.8ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 103ms (Views: 100.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 130.65.254.19 at 2017-04-13 23:09:00 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.2ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 917ms (Views: 902.7ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/reservations" for 130.65.254.19 at 2017-04-13 23:09:02 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 118ms (Views: 98.7ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/reservations" for 130.65.254.19 at 2017-04-13 23:09:45 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (25.4ms)
+Completed 200 OK in 877ms (Views: 801.4ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/reservations" for 130.65.254.19 at 2017-04-13 23:12:17 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (21.4ms)
+Completed 200 OK in 962ms (Views: 859.7ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/reservations" for 130.65.254.19 at 2017-04-13 23:14:45 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (52.9ms)
+Completed 200 OK in 845ms (Views: 787.5ms | ActiveRecord: 2.6ms)
+
+
+Started POST "/reservations/3/edit" for 130.65.254.19 at 2017-04-13 23:15:04 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [POST] "/reservations/3/edit"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.0) lib/web_console/middleware.rb:20:in `block in call'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered collection of /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [41 times] (22.1ms)
+  Rendered collection of /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [10 times] (3.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (13.2ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (125.1ms)
+Started GET "/reservations" for 130.65.254.19 at 2017-04-13 23:17:55 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  
+ActionController::RoutingError (No route matches [GET] "/reservations"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.0) lib/web_console/middleware.rb:20:in `block in call'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.9ms)
+  Rendered collection of /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [41 times] (29.1ms)
+  Rendered collection of /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [10 times] (7.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (23.5ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (32.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (205.3ms)
+Started GET "/reservations" for 130.65.254.19 at 2017-04-13 23:18:54 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (29.1ms)
+Completed 200 OK in 879ms (Views: 807.7ms | ActiveRecord: 3.1ms)
+
+
+Started POST "/reservations/3/edit" for 130.65.254.19 at 2017-04-13 23:18:58 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [POST] "/reservations/3/edit"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.0) lib/web_console/middleware.rb:20:in `block in call'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered collection of /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [33 times] (12.9ms)
+  Rendered collection of /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [10 times] (8.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (13.5ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (99.0ms)
+Started GET "/reservations" for 130.65.254.19 at 2017-04-13 23:21:10 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (530.7ms)
+Completed 500 Internal Server Error in 595ms (ActiveRecord: 2.8ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `new_article_path' for #<#<Class:0x000000039080c8>:0x0000000395cc18>
+Did you mean?  new_reservation_path):
+    2: 	<div class="row">
+    3: 		<div class="col-md-12">
+    4: <h1>Listing Articles</h1>
+    5: <%= link_to 'New article', new_article_path %>
+    6: <table class ="table table-bordered table-hover table-condensed">
+    7:   <thead>
+    8:   <tr>
+  
+app/views/articles/index.html.erb:5:in `_app_views_articles_index_html_erb___3481531341316875222_29903880'
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.2ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (53.5ms)
+Started GET "/reservations" for 130.65.254.19 at 2017-04-13 23:22:53 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (25.9ms)
+Completed 200 OK in 946ms (Views: 877.7ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/reservations" for 130.65.254.19 at 2017-04-13 23:22:55 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 137ms (Views: 122.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/reservations" for 130.65.254.19 at 2017-04-13 23:22:56 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 221ms (Views: 215.9ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/reservations/3/edit" for 130.65.254.19 at 2017-04-13 23:23:00 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [POST] "/reservations/3/edit"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.0) lib/web_console/middleware.rb:20:in `block in call'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered collection of /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [33 times] (16.3ms)
+  Rendered collection of /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [10 times] (4.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (15.4ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (12.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (118.3ms)
+Started GET "/reservations/new" for 130.65.254.19 at 2017-04-13 23:23:17 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (44.0ms)
+  Rendered articles/new.html.erb within layouts/application (48.3ms)
+Completed 200 OK in 170ms (Views: 165.0ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/reservations" for 130.65.254.19 at 2017-04-13 23:23:20 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HKYT/JOO2CFVoZRSQHbWNh19uuBR7y3+T0hV6F/UvCHq2OaJT+lMF7u/ThgMJg3ZOFDz036tQnZCMXa2wq6C9g==", "article"=>{"title"=>"dadfdf", "text"=>"gfafdsag"}, "commit"=>"Create Article"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (2.6ms)[0m  [1m[32mINSERT INTO "articles" ("title", "text", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "dadfdf"], ["text", "gfafdsag"], ["created_at", 2017-04-13 23:23:20 UTC], ["updated_at", 2017-04-13 23:23:20 UTC]]
+  [1m[35m (17.4ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://cmpe131-sonnybunzz.c9users.io/reservations/4
+Completed 302 Found in 29ms (ActiveRecord: 20.4ms)
+
+
+Started GET "/reservations/4" for 130.65.254.19 at 2017-04-13 23:23:20 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.4ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."article_id" = ?[0m  [["article_id", 4]]
+  Rendered collection of templates [0 times] (0.0ms)
+  Rendered comments/_form.html.erb (23.3ms)
+  Rendered articles/show.html.erb within layouts/application (71.6ms)
+Completed 200 OK in 170ms (Views: 161.8ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/reservations" for 130.65.254.19 at 2017-04-13 23:23:22 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 99ms (Views: 95.1ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/reservations/4/edit" for 130.65.254.19 at 2017-04-13 23:23:24 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [POST] "/reservations/4/edit"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.0) lib/web_console/middleware.rb:20:in `block in call'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered collection of /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [33 times] (10.7ms)
+  Rendered collection of /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [10 times] (3.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (86.2ms)
+Started GET "/" for 130.65.254.19 at 2017-04-13 23:35:09 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (4.9ms)
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 1181ms (Views: 1159.7ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/reservations" for 130.65.254.19 at 2017-04-13 23:35:12 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (16.7ms)
+Completed 200 OK in 325ms (Views: 119.7ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/reservations" for 130.65.254.19 at 2017-04-13 23:46:29 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (21.5ms)
+Completed 200 OK in 836ms (Views: 770.9ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/reservations" for 130.65.254.19 at 2017-04-13 23:47:57 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (22.1ms)
+Completed 500 Internal Server Error in 493ms (ActiveRecord: 2.4ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "inline": expected expression (e.g. 1px, bold), was ";"):
+    4:     <title>BEST Dining</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:     <div class="container-fluid">
+   10: 	<div class="row">
+  
+app/assets/stylesheets/application.css.sass:21
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__4352023050319162481_40322740'
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (10.8ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (70.1ms)
+Started GET "/reservations" for 130.65.254.19 at 2017-04-13 23:48:35 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (29.7ms)
+Completed 200 OK in 3902ms (Views: 3826.3ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/reservations" for 130.65.254.19 at 2017-04-13 23:53:49 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (30.5ms)
+Completed 200 OK in 1134ms (Views: 1030.8ms | ActiveRecord: 3.6ms)
+
+
+Started DELETE "/reservations/3" for 130.65.254.19 at 2017-04-13 23:55:04 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"uEpR995I5Iqz1Vm6d0kx9o6y+xvpwn6gfp8zOzX4kilONKSCAi9wvF3Lg/A7GeoZq5+yKMaAEShz5hBlqIKs/g==", "id"=>"3"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."article_id" = ?[0m  [["article_id", 3]]
+  [1m[35mSQL (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 3]]
+  [1m[35m (11.9ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://cmpe131-sonnybunzz.c9users.io/reservations
+Completed 302 Found in 179ms (ActiveRecord: 13.6ms)
+
+
+Started GET "/reservations" for 130.65.254.19 at 2017-04-13 23:55:04 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 107ms (Views: 102.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations" for 130.65.254.19 at 2017-04-13 23:56:09 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (30.6ms)
+Completed 200 OK in 880ms (Views: 819.7ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/reservations" for 130.65.254.19 at 2017-04-13 23:56:35 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (20.6ms)
+Completed 200 OK in 809ms (Views: 749.6ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/reservations" for 130.65.254.19 at 2017-04-13 23:56:37 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 111ms (Views: 106.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations" for 130.65.254.19 at 2017-04-13 23:56:49 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (20.3ms)
+Completed 200 OK in 717ms (Views: 662.4ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/reservations" for 130.65.254.19 at 2017-04-13 23:57:12 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (87.4ms)
+Completed 200 OK in 819ms (Views: 756.5ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/reservations" for 130.65.254.19 at 2017-04-13 23:59:41 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (22.1ms)
+Completed 200 OK in 816ms (Views: 755.5ms | ActiveRecord: 3.2ms)
+
+
+Started POST "/reservations/new" for 130.65.254.19 at 2017-04-13 23:59:52 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [POST] "/reservations/new"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.0) lib/web_console/middleware.rb:20:in `block in call'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered collection of /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [33 times] (20.2ms)
+  Rendered collection of /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [10 times] (3.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (14.8ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (111.7ms)
+Started GET "/reservations" for 130.65.254.19 at 2017-04-14 00:00:17 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (24.7ms)
+Completed 200 OK in 879ms (Views: 823.7ms | ActiveRecord: 2.5ms)
+
+
+Started POST "/reservations/new" for 130.65.254.19 at 2017-04-14 00:00:19 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [POST] "/reservations/new"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.0) lib/web_console/middleware.rb:20:in `block in call'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered collection of /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [33 times] (18.2ms)
+  Rendered collection of /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [10 times] (6.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (14.8ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (206.2ms)
+Started GET "/admin" for 130.65.254.19 at 2017-04-14 00:33:38 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "articles" WHERE ('t'='t')[0m
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY "articles"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE ('t'='t')[0m
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT  "comments".* FROM "comments" ORDER BY "comments"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE ('t'='t')[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (24.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/layouts/rails_admin/_secondary_navigation.html.haml (5.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/layouts/rails_admin/_navigation.html.haml (10.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (5.1ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/layouts/rails_admin/pjax.html.haml
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/layouts/rails_admin/pjax.html.haml (4.9ms)
+Completed 200 OK in 1365ms (Views: 345.0ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/admin" for 130.65.254.19 at 2017-04-14 00:33:40 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "articles" WHERE ('t'='t')[0m
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY "articles"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE ('t'='t')[0m
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT  "comments".* FROM "comments" ORDER BY "comments"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE ('t'='t')[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (17.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/layouts/rails_admin/_secondary_navigation.html.haml (6.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/layouts/rails_admin/_navigation.html.haml (14.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (8.4ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/layouts/rails_admin/pjax.html.haml
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/layouts/rails_admin/pjax.html.haml (6.3ms)
+Completed 200 OK in 293ms (Views: 280.2ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/admin/user?_pjax=%5Bdata-pjax-container%5D" for 130.65.254.19 at 2017-04-14 00:33:42 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"user"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE ('t'='t') ORDER BY users.id desc LIMIT ? OFFSET ?[0m  [["LIMIT", 20], ["OFFSET", 0]]
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (63.8ms)
+Completed 200 OK in 97ms (Views: 82.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/admin/user/2/edit?_pjax=%5Bdata-pjax-container%5D" for 130.65.254.19 at 2017-04-14 00:33:45 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#edit as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"user", "id"=>"2"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/edit.html.haml within layouts/rails_admin/pjax
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/_form_field.html.haml (2.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/_form_field.html.haml (3.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/_form_field.html.haml (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/_form_datetime.html.haml (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/_form_datetime.html.haml (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/_form_field.html.haml (2.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/_form_datetime.html.haml (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/_form_datetime.html.haml (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/_form_field.html.haml (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/_form_field.html.haml (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/_form_boolean.html.haml (7.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/_form_boolean.html.haml (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/_form_boolean.html.haml (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/_submit_buttons.html.haml (6.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/edit.html.haml within layouts/rails_admin/pjax (87.8ms)
+Completed 200 OK in 128ms (Views: 114.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/admin/comment?_pjax=%5Bdata-pjax-container%5D" for 130.65.254.19 at 2017-04-14 00:34:03 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"comment"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT  "comments".* FROM "comments" WHERE ('t'='t') ORDER BY comments.id desc LIMIT ? OFFSET ?[0m  [["LIMIT", 20], ["OFFSET", 0]]
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (72.9ms)
+Completed 200 OK in 112ms (Views: 86.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/admin/article?_pjax=%5Bdata-pjax-container%5D" for 130.65.254.19 at 2017-04-14 00:34:04 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"article"}
+  [1m[36mUser Load (2.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE ('t'='t') ORDER BY articles.id desc LIMIT ? OFFSET ?[0m  [["LIMIT", 20], ["OFFSET", 0]]
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."article_id" = ?[0m  [["article_id", 4]]
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (175.0ms)
+Completed 200 OK in 204ms (Views: 188.7ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/admin/user?_pjax=%5Bdata-pjax-container%5D" for 130.65.254.19 at 2017-04-14 00:34:06 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"user"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE ('t'='t') ORDER BY users.id desc LIMIT ? OFFSET ?[0m  [["LIMIT", 20], ["OFFSET", 0]]
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (61.5ms)
+Completed 200 OK in 85ms (Views: 74.4ms | ActiveRecord: 0.7ms)
+
+
+Started DELETE "/users/sign_out" for 130.65.254.19 at 2017-04-14 00:34:08 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Sy+ZLE7pXqFfkr8aSNDgwwWDsdv1BtkzrwIZ5XNdphm9UWxZko7Kl7GMZVAEgDssIK746NpEtruiezq77ieYzg=="}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://cmpe131-sonnybunzz.c9users.io/
+Completed 302 Found in 16ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 130.65.254.19 at 2017-04-14 00:34:08 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Started DELETE "/users/sign_out" for 130.65.254.19 at 2017-04-14 00:34:08 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Sy+ZLE7pXqFfkr8aSNDgwwWDsdv1BtkzrwIZ5XNdphm9UWxZko7Kl7GMZVAEgDssIK746NpEtruiezq77ieYzg=="}
+Redirected to https://cmpe131-sonnybunzz.c9users.io/
+Filter chain halted as :verify_signed_out_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 130.65.254.19 at 2017-04-14 00:34:08 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 320ms (Views: 252.6ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 134ms (Views: 132.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/reservations" for 130.65.254.19 at 2017-04-14 00:34:15 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 130.65.254.19 at 2017-04-14 00:34:15 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (1.7ms)
+  Rendered users/sessions/new.html.erb within layouts/application (11.8ms)
+Completed 200 OK in 114ms (Views: 108.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 130.65.254.19 at 2017-04-14 00:34:18 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"luteygZmmRLWmtQUdlxIcprjl2+4laY4NmCFxXgJQSwboh8EUNq5Co0bsxcnLJ37o2Uhp2j5iBiSHsjnQ3Qscg==", "user"=>{"email"=>"sonnybunzz@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "sonnybunzz@gmail.com"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "users" SET "current_sign_in_at" = ?, "last_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["current_sign_in_at", 2017-04-14 00:34:18 UTC], ["last_sign_in_at", 2017-04-13 22:51:09 UTC], ["sign_in_count", 13], ["updated_at", 2017-04-14 00:34:18 UTC], ["id", 1]]
+  [1m[35m (17.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://cmpe131-sonnybunzz.c9users.io/reservations
+Completed 302 Found in 211ms (ActiveRecord: 18.2ms)
+
+
+Started GET "/reservations" for 130.65.254.19 at 2017-04-14 00:34:18 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 102ms (Views: 97.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/admin" for 130.65.254.19 at 2017-04-14 00:35:14 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "articles" WHERE ('t'='t')[0m
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY "articles"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE ('t'='t')[0m
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT  "comments".* FROM "comments" ORDER BY "comments"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE ('t'='t')[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (20.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/layouts/rails_admin/_secondary_navigation.html.haml (5.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/layouts/rails_admin/_navigation.html.haml (10.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (5.5ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/layouts/rails_admin/pjax.html.haml
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/layouts/rails_admin/pjax.html.haml (5.1ms)
+Completed 200 OK in 298ms (Views: 285.1ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/admin" for 130.65.254.19 at 2017-04-14 00:35:15 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "articles" WHERE ('t'='t')[0m
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY "articles"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE ('t'='t')[0m
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT  "comments".* FROM "comments" ORDER BY "comments"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE ('t'='t')[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (20.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/layouts/rails_admin/_secondary_navigation.html.haml (4.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/layouts/rails_admin/_navigation.html.haml (9.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (4.6ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/layouts/rails_admin/pjax.html.haml
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/layouts/rails_admin/pjax.html.haml (4.4ms)
+Completed 200 OK in 221ms (Views: 208.6ms | ActiveRecord: 1.4ms)
+
+
+Started DELETE "/users/sign_out" for 130.65.254.19 at 2017-04-14 00:35:19 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"hgX9pvhRm/xGkm4qAnuCAOS5H6HrDs8k/Na+3gecrZ3n8wuvqM5mDdHxHu4g9C0z/eMDNOM8jIvUnuRe0gMbnQ=="}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://cmpe131-sonnybunzz.c9users.io/
+Completed 302 Found in 7ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 130.65.254.19 at 2017-04-14 00:35:19 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 87ms (Views: 86.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 130.65.254.19 at 2017-04-14 00:35:21 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (2.0ms)
+  Rendered users/sessions/new.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 110ms (Views: 107.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 130.65.254.19 at 2017-04-14 00:35:22 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering users/registrations/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (1.1ms)
+  Rendered users/registrations/new.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 89ms (Views: 87.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 130.65.254.19 at 2017-04-14 00:35:24 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (1.8ms)
+  Rendered users/sessions/new.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 115ms (Views: 113.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 130.65.254.19 at 2017-04-14 00:35:26 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering users/registrations/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (1.9ms)
+  Rendered users/registrations/new.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 157ms (Views: 155.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 130.65.254.19 at 2017-04-14 00:36:42 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (3.6ms)
+  Rendered users/sessions/new.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 167ms (Views: 164.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 130.65.254.19 at 2017-04-14 00:36:43 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0mYOF0gz1a6RK9w/7Y1w8tyD70DWfzNt9RmApxmyt5jkLZOQ+84VJpPZjR15phMDLLDjfoQjyAOedjpPKYRuhg==", "user"=>{"email"=>"sonnybunzz@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "sonnybunzz@gmail.com"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.7ms)[0m  [1m[33mUPDATE "users" SET "current_sign_in_at" = ?, "last_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["current_sign_in_at", 2017-04-14 00:36:44 UTC], ["last_sign_in_at", 2017-04-14 00:34:18 UTC], ["sign_in_count", 14], ["updated_at", 2017-04-14 00:36:44 UTC], ["id", 1]]
+  [1m[35m (15.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://cmpe131-sonnybunzz.c9users.io/
+Completed 302 Found in 184ms (ActiveRecord: 17.2ms)
+
+
+Started GET "/" for 130.65.254.19 at 2017-04-14 00:36:44 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.8ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 149ms (Views: 146.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/admin" for 130.65.254.19 at 2017-04-14 00:36:48 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "articles" WHERE ('t'='t')[0m
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY "articles"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE ('t'='t')[0m
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT  "comments".* FROM "comments" ORDER BY "comments"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE ('t'='t')[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (24.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/layouts/rails_admin/_secondary_navigation.html.haml (5.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/layouts/rails_admin/_navigation.html.haml (11.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (8.8ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/layouts/rails_admin/pjax.html.haml
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/layouts/rails_admin/pjax.html.haml (4.9ms)
+Completed 200 OK in 301ms (Views: 283.8ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/admin" for 130.65.254.19 at 2017-04-14 00:36:48 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "articles" WHERE ('t'='t')[0m
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY "articles"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE ('t'='t')[0m
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT  "comments".* FROM "comments" ORDER BY "comments"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE ('t'='t')[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (32.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/layouts/rails_admin/_secondary_navigation.html.haml (8.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/layouts/rails_admin/_navigation.html.haml (16.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (8.3ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/layouts/rails_admin/pjax.html.haml
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/layouts/rails_admin/pjax.html.haml (6.9ms)
+Completed 200 OK in 366ms (Views: 347.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/admin/user?_pjax=%5Bdata-pjax-container%5D" for 130.65.254.19 at 2017-04-14 00:36:51 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"user"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE ('t'='t') ORDER BY users.id desc LIMIT ? OFFSET ?[0m  [["LIMIT", 20], ["OFFSET", 0]]
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (76.6ms)
+Completed 200 OK in 105ms (Views: 91.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/admin/user/new?_pjax=%5Bdata-pjax-container%5D" for 130.65.254.19 at 2017-04-14 00:36:57 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#new as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"user"}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/new.html.haml within layouts/rails_admin/pjax
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/_form_field.html.haml (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/_form_field.html.haml (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/_form_field.html.haml (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/_form_datetime.html.haml (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/_form_datetime.html.haml (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/_form_field.html.haml (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/_form_datetime.html.haml (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/_form_datetime.html.haml (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/_form_field.html.haml (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/_form_field.html.haml (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/_form_boolean.html.haml (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/_form_boolean.html.haml (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/_form_boolean.html.haml (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/_submit_buttons.html.haml (6.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/new.html.haml within layouts/rails_admin/pjax (52.9ms)
+Completed 200 OK in 80ms (Views: 69.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/admin/user?_pjax=%5Bdata-pjax-container%5D" for 130.65.254.19 at 2017-04-14 00:37:02 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"user"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE ('t'='t') ORDER BY users.id desc LIMIT ? OFFSET ?[0m  [["LIMIT", 20], ["OFFSET", 0]]
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (52.1ms)
+Completed 200 OK in 77ms (Views: 65.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/admin/user/2/edit?_pjax=%5Bdata-pjax-container%5D" for 130.65.254.19 at 2017-04-14 00:37:03 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#edit as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"user", "id"=>"2"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/edit.html.haml within layouts/rails_admin/pjax
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/_form_field.html.haml (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/_form_field.html.haml (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/_form_field.html.haml (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/_form_datetime.html.haml (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/_form_datetime.html.haml (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/_form_field.html.haml (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/_form_datetime.html.haml (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/_form_datetime.html.haml (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/_form_field.html.haml (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/_form_field.html.haml (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/_form_boolean.html.haml (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/_form_boolean.html.haml (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/_form_boolean.html.haml (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/_submit_buttons.html.haml (5.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/bundler/gems/rails_admin-e0eb6ca714c9/app/views/rails_admin/main/edit.html.haml within layouts/rails_admin/pjax (124.8ms)
+Completed 200 OK in 150ms (Views: 140.0ms | ActiveRecord: 0.7ms)
+
+
+Started DELETE "/users/sign_out" for 130.65.254.19 at 2017-04-14 00:39:43 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"7itHX92Gzlnl/JQj5qF2Frac2u0iXpD3bTTs4+nauGu0/niKBjttcNrN1/vWah6kcrGdAj7cVB6LTSfA1iA6Cg=="}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://cmpe131-sonnybunzz.c9users.io/
+Completed 302 Found in 7ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 130.65.254.19 at 2017-04-14 00:39:43 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 95ms (Views: 93.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/reservations" for 130.65.254.19 at 2017-04-14 00:50:05 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 31ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 130.65.254.19 at 2017-04-14 00:50:05 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (3.6ms)
+  Rendered users/sessions/new.html.erb within layouts/application (56.6ms)
+Completed 200 OK in 3763ms (Views: 3714.8ms | ActiveRecord: 2.1ms)
+
+
+Started POST "/users/sign_in" for 130.65.254.19 at 2017-04-14 00:50:11 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PGzkNIeDCuR9v7EirGJY5GxQTGCh+fKFFCvsIXI6AkKXcubwGnspUUxrGUVHK0cWImARYrscLtAG5/Uf3Y8qZA==", "user"=>{"email"=>"sonnybunzz@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "sonnybunzz@gmail.com"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (4.1ms)[0m  [1m[33mUPDATE "users" SET "current_sign_in_at" = ?, "last_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["current_sign_in_at", 2017-04-14 00:50:11 UTC], ["last_sign_in_at", 2017-04-14 00:36:44 UTC], ["sign_in_count", 15], ["updated_at", 2017-04-14 00:50:11 UTC], ["id", 1]]
+  [1m[35m (27.8ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://cmpe131-sonnybunzz.c9users.io/reservations
+Completed 302 Found in 487ms (ActiveRecord: 32.7ms)
+
+
+Started GET "/reservations" for 130.65.254.19 at 2017-04-14 00:50:11 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (21.9ms)
+Completed 200 OK in 298ms (Views: 214.6ms | ActiveRecord: 2.3ms)
+
+
+Started POST "/reservations/new" for 130.65.254.19 at 2017-04-14 00:50:13 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [POST] "/reservations/new"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.0) lib/web_console/middleware.rb:20:in `block in call'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered collection of /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [33 times] (100.1ms)
+  Rendered collection of /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [10 times] (5.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (10.6ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0@global/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (245.1ms)
+Started GET "/reservations" for 130.65.254.19 at 2017-04-14 00:54:39 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (27.9ms)
+Completed 200 OK in 838ms (Views: 776.7ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/reservations/new" for 130.65.254.19 at 2017-04-14 00:54:42 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (37.7ms)
+  Rendered articles/new.html.erb within layouts/application (41.0ms)
+Completed 200 OK in 193ms (Views: 187.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/reservations" for 130.65.254.19 at 2017-04-14 00:55:58 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (27.1ms)
+Completed 200 OK in 847ms (Views: 773.7ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/reservations/4/edit" for 130.65.254.19 at 2017-04-14 00:56:02 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (39.1ms)
+  Rendered articles/edit.html.erb within layouts/application (40.8ms)
+Completed 200 OK in 150ms (Views: 140.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/reservations" for 130.65.254.19 at 2017-04-14 00:56:53 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (36.3ms)
+Completed 200 OK in 904ms (Views: 822.1ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/reservations/new" for 130.65.254.19 at 2017-04-14 00:56:55 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (50.9ms)
+  Rendered articles/new.html.erb within layouts/application (53.0ms)
+Completed 200 OK in 194ms (Views: 188.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/reservations" for 130.65.254.19 at 2017-04-14 00:56:57 +0000
+Cannot render console from 130.65.254.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 132ms (Views: 128.0ms | ActiveRecord: 0.7ms)
+
+
