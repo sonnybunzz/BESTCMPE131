@@ -1,15 +1,16 @@
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-md-12">
-<h1>Listing Articles</h1>
-<%= link_to 'New article', new_article_path, :class => "btn btn-block btn-info", :type => "button" %>
+
+<%= link_to 'Sign In', new_article_path, :class => "btn btn-block btn-info", :type => "button" %>
 <table class ="table table-bordered table-hover table-condensed">
   <thead>
   <tr>
     <th colspan="1">Name</th>
     <th colspan="1">Number of people</th>
     <th>Time signed in</th>
-    <th>Commands</th>
+    <% if can? :manage, User %><th>Commands</th>
+    <% end %>
   </tr>
   </thead>
  
@@ -17,10 +18,12 @@
     <tr>
       <td><%= article.title %></td>
       <td><%= article.text %></td>
-      <td>Time.now.strftime(%l:%M %P)</td>
+      <td><%= article.created_at.strftime("%B %d %Y, %l:%M%P") %></td>
+      <% if can? :manage, User %>
       <td><%= link_to "Edit", edit_article_path(article), :class => "btn btn-primary btn-sm", :type => "button" %><%= button_to 'Delete', article_path(article),
               :class => "btn btn-danger btn-sm", :type => "button", method: :delete,
               data: { confirm: 'Are you sure?' } %></td>
+      <% end %>
     </tr>
   <% end %>
 </table>
